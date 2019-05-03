@@ -61,7 +61,7 @@ export default connect(null, { addAlly })(AllyForm); // Can do this way because 
 //     addAlly: (allyObj) => {dispatch({type: "ADD_ALLY", payload: allyObj})}
 //   }
 // } // this object (addAlly()) is available as props in this container
-//
+// 
 // export default connect(null, mapDispatchToProps)(AllyForm);
 //
 // // mapDispatchToProps:
